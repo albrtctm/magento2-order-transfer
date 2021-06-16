@@ -7,7 +7,7 @@ M2 Order Transfer
 
 **Installation**
 
-1. Unzip the file and copy to <directory_root>/app/code
+1. Unzip the file and rename the main folder to `M2` then copy to <directory_root>/app/code
 
 - Run Following Command via terminal
 
