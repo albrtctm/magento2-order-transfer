@@ -1,0 +1,27 @@
+<style>
+label { font-size: 23px; }
+input { width: 350px;font-size: 22px;font-weight:bold; }
+fieldset { border: none;margin: 0;padding: 0; }
+li { display: block; }
+</style>
+<form action="<?php echo $this->getUrl('*/*/'); ?>" method="POST">
+  <?php echo $this->getBlockHtml('formkey')?>
+  <fieldset class="group-select">
+    <ul>
+      <li>
+        <div class="input-box">
+          <label for="order">Order # </label><br />
+          <input name="order" id="order" title="order" value="" class="required-entry input-text" type="text" autocomplete="off"/>
+        </div>
+        <br>
+        <div class="input-box">
+          <label for="email">Customer email </label><br />
+          <input name="email" id="email" title="Email" value="" class="required-entry input-text validate-email" type="email" autocomplete="off"/>
+        </div>
+      </li>
+    </ul>
+  </fieldset>
+  <div class="button-set">
+    <button class="form-button" type="submit"><span>Transfer</span></button>
+  </div>
+</form>

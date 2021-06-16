@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+    <add id="M2_Ordertransfer::ordertransfer" title="Order Transfer" translate="title" module="M2_Ordertransfer" sortOrder="50" dependsOnModule="M2_Ordertransfer" resource="M2_Ordertransfer::ordertransfer"/>
+    <add id="M2_Ordertransfer::ordertransfer_transfer" title="Transfer Order" translate="title" module="M2_Ordertransfer" parent="M2_Ordertransfer::ordertransfer" sortOrder="10" dependsOnModule="M2_Ordertransfer" action="ordertransfer/transfer" resource="M2_Ordertransfer::ordertransfer"/>
+  </menu>
+</config>
